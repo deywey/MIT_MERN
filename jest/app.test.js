@@ -1,4 +1,4 @@
-const { add, subtract } = require("./app"); // assuming your functions are in app.js
+const { add, subtract } = require("./app.js");
 
 describe("add function", () => {
   test("adds 1 + 2 to equal 3", () => {
