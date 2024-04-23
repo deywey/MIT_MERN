@@ -4,7 +4,7 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href=".\styles\style.css"
+      href="..\styles\style.css"
       media="screen"
     />
     <link
@@ -20,7 +20,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Home</a>
+      <a class="navbar-brand" href="..\index.html">Home</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -38,29 +38,43 @@
       >
         <ul class="navbar-nav pe-5">
           <li class="nav-item active">
-            <a class="nav-link" href="Pages\bio.html">Bio</a>
+            <a class="nav-link" href="bio.html">Bio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Pages\about.html">About</a>
+            <a class="nav-link" href="projects.html">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Pages\projects.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Pages\contact.html">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
     <div class="container-fluid">
       <div class="row">
-        <div class="col">
-          <p class="text-center pt-5 splash">
-            Welcome to Marquis' GitHub Page!
+        <div class="col-2"></div>
+        <div class="col-3">
+          <img
+            src="..\styles\img\profile_picture.png"
+            alt="profile_pic"
+            class="profile_pic"
+          />
+        </div>
+        <div class="col-3 profile_intro">
+          <p>
+            Hello, my name is Marquis W. and I am a programmer!<br /><br />
+            I am currently building skills that include the MERN stack, GitLab
+            pipeline automation, applicaiton containerization, security and
+            compliance, Python and many other related tools. This is my GitHub
+            Page, feel free to check out my Projects, COntact and About Me for
+            more information.
           </p>
         </div>
       </div>
     </div>
+
     <div class="container text-center mt-5 pt-5">
       <footer id="datetime"></footer>
     </div>

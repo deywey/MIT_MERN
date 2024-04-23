@@ -45,3 +45,9 @@
   font-size: small;
   color: rgb(255, 2, 2);
 }
+
+.splash {
+  font-size: xx-large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
